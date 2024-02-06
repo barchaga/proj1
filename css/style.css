@@ -1,0 +1,93 @@
+<style>
+        body {
+            font-family: Proxima Nova, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #A06CCC;
+        }
+
+        header {
+            font-family: Proxima Nova, sans-serif;
+            background-color: #;
+            color: #fff;
+            text-align: center;
+            width: 20%;
+            height: auto
+            padding: 10px;
+        }
+
+        nav {
+            background-color: #5c2d84;
+            overflow: hidden;
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            background-color: rgba(255, 255, 255, 0.1); /* 50% transparency */
+        }
+
+        nav a:hover {
+            background-color: #ddd;
+            color: #ae03a4;
+        }
+
+        section {
+            margin: 20px;
+            background-color: #D291B0; rgba (255, 255, 255, 0.5)
+            padding: 20px;
+            border-radius: 8px;
+        }
+
+        img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 0px;
+        }
+
+        .pair-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .pair {
+            width: 48%;
+            box-sizing: border-box;
+            margin-bottom: 20px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+        }
+
+        table, th, td {
+            border: 1px solid #DF78FC;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #DF78FC;
+            color: #fff;
+        }
+
+        a {
+            color:#ae03a4;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
